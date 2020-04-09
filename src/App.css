@@ -1,0 +1,11 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+.app-wrapper {
+  max-width: 1200px;
+
+  position: relative;
+}

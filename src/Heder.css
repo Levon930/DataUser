@@ -1,0 +1,116 @@
+header {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  background-color: gray;
+}
+nav ul li {
+  padding: 20px;
+  background-color: gray;
+  font-size: 20px;
+}
+nav ul li:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 2s;
+}
+nav p {
+  background-color: grey;
+  padding-left: 55px;
+  font-size: 30px;
+  font-weight: bold;
+}
+nav form {
+  background-color: gray;
+  margin-right: 50px;
+}
+nav form input {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 2em;
+  border-color: transparent;
+  position: relative;
+}
+nav form input:hover {
+  transition-duration: 3s;
+  background-color: aqua;
+  color: black;
+}
+nav p::before {
+  content: "\f5d1";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: hsl(111, 82%, 35%);
+}
+.exp {
+  text-align: center;
+  padding: 60px;
+}
+.exp h1 {
+  font-size: 35px;
+  color: gray;
+  margin-top: 50px;
+  padding: 60px;
+}
+.search {
+  width: 80%;
+  border: 1px solid #000;
+  min-height: 30px;
+  margin-left: 120px;
+  position: relative;
+}
+.search input[type="search"] {
+  border: none;
+  outline: none;
+  text-align: left;
+  -webkit-appearance: none;
+  width: 100%;
+  vertical-align: middle;
+}
+.search button[type="submit"] {
+  border: none;
+  height: 100%;
+  background-color: transparent;
+  text-align: center;
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+.forms {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.forms form {
+  display: flex;
+}
+.forms form button {
+  width: 40px;
+  min-width: 30px;
+  margin-left: 20px;
+  position: relative;
+  content: "\f004";
+  background-color: gray;
+  font-size: 20px;
+  border-color: transparent;
+  color: violet;
+  text-align: center;
+}
+.forms form button i {
+  background-color: transparent;
+}
+.forms {
+  padding-bottom: 50px;
+}
