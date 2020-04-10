@@ -6,13 +6,14 @@ class Users extends React.Component {
     users: [],
   };
   search = (event) => {
+    const { value } = event.target;
     this.setState((prevState) => {
       return {
         ...prevState,
         users: prevState.users.filter((item) => {
           return item.name.first
             .toLocaleLowerCase()
-            .startsWith(event.target.value.toLocaleLowerCase());
+            .startsWith(value.toLocaleLowerCase());
         }),
       };
     });
